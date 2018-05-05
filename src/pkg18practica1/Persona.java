@@ -27,7 +27,7 @@ public class Persona extends Animal {
         super(n);
         this.genero = g;
 
-    }   //ver qué quiso hacer
+    }   //ver qué quiso hacer  <-- busca un constructor de la clase padre Animal
 
     public void saludar() {
         System.out.println("Hola" + this.saludoBin());

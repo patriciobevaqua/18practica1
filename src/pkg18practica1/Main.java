@@ -28,7 +28,7 @@ public class Main {
         // public, -> 
         // private, ->
         // protected  ->
-        Persona pepe = new Persona("Carlos");  //constructor que creamos igual al por defecto
+        Persona pepe = new Persona("Carlos");  //instancia
         pepe.saludar();
         pepe.mover();
 
