@@ -30,7 +30,7 @@ public class Persona extends Animal {
     }   //ver qué quiso hacer  <-- busca un constructor de la clase padre Animal
 
     public void saludar() {
-        System.out.println("Hola" + this.saludoBin());
+        System.out.println("Hola " + this.saludoBin());
     }
 
     private String saludoBin() {   //sólo lo ve la clase
